@@ -1,0 +1,98 @@
+
+main()
+{
+    intk,l;
+    k=5;
+    l=6;
+    int u;
+    u=k+l;
+    #Variables
+    int d;
+    d=150;
+    d++;
+    print(d);
+    int a,b,c;
+    char x,y,z;
+
+    #Assign
+    a=6;
+    b=2;
+    c=3;
+    
+    #Calculations
+    c = a+b;
+    print(c+2);
+    c=a-b;
+    print(c*100);
+    c=a*b;
+    print(c);
+    c=a/b;
+    print(c);
+    c=a%b;
+    print(c);
+    c= 3^2;
+    print(c);
+    5++;
+    5--;
+    5+=2;
+    5-=2;
+    5*=3;
+    5/=0;
+    9/=3;
+    a+=10;
+    int m;
+    m=1;
+    m*=200;
+    m/=2;
+    m+=5;
+    m-=3;
+    int r,w,g;
+    r=200;
+    w=600;
+    g=100;
+    
+    # comment
+    # comment
+    int j;
+    j=r+w+g;
+    j+=g;
+    j/=r;
+    j*=g;
+    w-=g;
+
+
+    #IF condition
+    if(a>b)
+    {
+        a+b;
+    }
+    else
+    {
+        a-b;
+    }
+
+
+    5>2;
+    2<5;
+    5==5;
+    2!=5;
+    
+
+    #while loop
+    
+
+    while(1<5)
+    {
+        a=a-b;
+    }
+    int i;
+    i=5;
+    j=10;
+    while(i<j)
+    {
+        a=a-b;
+    }
+    print(a);
+
+
+}

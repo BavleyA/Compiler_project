@@ -1,0 +1,206 @@
+
+Number :  5
+Variable value: 5	
+
+Number :  6
+Variable value: 6	
+
+PLUS: 5+6 = 11 
+Variable value: 11	
+Comment Found!!
+
+Number :  150
+Variable value: 150	
+
+Value before Increment : 150
+Value after Increment : 151
+Result: 151
+
+Comment Found!!
+
+Number :  6
+Variable value: 6	
+
+Number :  2
+Variable value: 2	
+
+Number :  3
+Variable value: 3	
+Comment Found!!
+
+PLUS: 6+2 = 8 
+Variable value: 8	
+
+Number :  2
+
+PLUS: 8+2 = 10 
+Result: 10
+
+
+SUB: 6-2=4 
+ Variable value: 4	
+
+Number :  100
+
+MUL: 4*100 
+ Result: 400
+
+
+MUL: 6*2 
+ Variable value: 12	
+Result: 12
+
+
+DIV:6/2 
+ Variable value: 3	
+Result: 3
+
+
+MOD :6 %d 
+Variable value: 0	
+Result: 0
+
+
+Number :  3
+
+Number :  2
+
+POW  :3 ^ 2 
+Variable value: 9	
+Result: 9
+
+
+Value before Increment : 5
+Value after Increment : 6
+
+Value before Decrement : 5
+Value after Decrement : 4
+
+
+Value before Increment : 5
+Value after Increment : 7
+
+Value before Decrement : 5
+Value after Decrement : 3
+
+Value before Multiplication : 5
+Value after Multiplication : 15
+
+Value before Division : 5
+Value after Division : 5
+
+Value before Division : 9
+Value after Division : 3
+
+Value before Increment : 6
+Value after Increment : 16
+
+Number :  1
+Variable value: 1	
+
+Value before Multiplication : 1
+Value after Multiplication : 200
+
+Value before Division : 200
+Value after Division : 100
+
+Value before Increment : 100
+Value after Increment : 105
+
+Value before Decrement : 105
+Value after Decrement : 102
+
+Number :  200
+Variable value: 200	
+
+Number :  600
+Variable value: 600	
+
+Number :  100
+Variable value: 100	
+Comment Found!!
+Comment Found!!
+
+PLUS: 200+600 = 800 
+
+PLUS: 800+100 = 900 
+Variable value: 900	
+
+Value before Increment : 900
+Value after Increment : 1000
+
+Value before Division : 1000
+Value after Division : 5
+
+Value before Multiplication : 5
+Value after Multiplication : 500
+
+Value before Decrement : 600
+Value after Decrement : 500
+Comment Found!!
+
+GT:16 > 2 
+ 
+PLUS: 16+2 = 18 
+
+SUB: 16-2=14 
+ 
+IF ELSE Condition Found
+IF is TURE: 18
+
+Number :  5
+
+Number :  2
+
+GT:5 > 2 
+ Value of expression: 1
+
+Number :  2
+
+Number :  5
+
+LT:2 < 5 
+Value of expression: 1
+
+Number :  5
+
+Number :  5
+
+EQUAL: 5 == 5
+Value of expression: 1
+
+Number :  2
+
+Number :  5
+
+NOTEQUAL: 2 == 5
+Value of expression: 1
+Comment Found!!
+
+SUB: 16-2=14 
+ Variable value: 14	
+
+WHILE Loop Found
+1th Loop: 14
+2th Loop: 14
+3th Loop: 14
+4th Loop: 14
+
+Number :  5
+Variable value: 5	
+
+Number :  10
+Variable value: 10	
+
+SUB: 14-2=12 
+ Variable value: 12	
+
+WHILE Loop Found
+5th Loop: 12
+6th Loop: 12
+7th Loop: 12
+8th Loop: 12
+9th Loop: 12
+Result: 12
+
+-----> Compiled Successfully!! <-----
