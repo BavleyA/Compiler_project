@@ -10,7 +10,7 @@
         void yyerror(char *);
         extern FILE *yyin;
         extern FILE *yyout;
-        FILE *yyError;
+        extern FILE *yyError;
 %}
 
 %%

@@ -387,10 +387,10 @@ static char *yy_last_accepting_cpos;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "FP.l"
+#line 1 "project.l"
 #define INITIAL 0
 /* C Declarations */
-#line 4 "FP.l"
+#line 4 "project.l"
         #include<stdio.h>
         #include<stdlib.h>
         #include<math.h>
@@ -400,7 +400,7 @@ char *yytext;
         void yyerror(char *);
         extern FILE *yyin;
         extern FILE *yyout;
-        FILE *yyError;
+        extern FILE *yyError;
 #line 405 "lex.yy.c"
 
 /* Macros after this point can all be overridden by user definitions in
@@ -552,7 +552,7 @@ YY_DECL
 	register char *yy_cp, *yy_bp;
 	register int yy_act;
 
-#line 16 "FP.l"
+#line 16 "project.l"
 
 #line 558 "lex.yy.c"
 
@@ -639,22 +639,22 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 17 "FP.l"
+#line 17 "project.l"
 {return INT;}
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 18 "FP.l"
+#line 18 "project.l"
 {return FLOAT;}
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 19 "FP.l"
+#line 19 "project.l"
 {return CHAR;}
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 20 "FP.l"
+#line 20 "project.l"
 {
         yylval = atoi(yytext);
         return NUM;
@@ -662,15 +662,15 @@ YY_RULE_SETUP
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 24 "FP.l"
-{
+#line 24 "project.l"
+{   
         yylval = *yytext - 'a';
         return VAR;
         }
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
-#line 28 "FP.l"
+#line 28 "project.l"
 {
                     yylval = yytext[0];	
                     return  *yytext;	
@@ -678,59 +678,59 @@ YY_RULE_SETUP
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
-#line 32 "FP.l"
+#line 32 "project.l"
 {return IF;}
 	YY_BREAK
 case 8:
 YY_RULE_SETUP
-#line 33 "FP.l"
+#line 33 "project.l"
 {return ELSE;}
 	YY_BREAK
 case 9:
 YY_RULE_SETUP
-#line 34 "FP.l"
+#line 34 "project.l"
 {return '{';}
 	YY_BREAK
 case 10:
 YY_RULE_SETUP
-#line 35 "FP.l"
+#line 35 "project.l"
 {return '}';}
 	YY_BREAK
 case 11:
 YY_RULE_SETUP
-#line 36 "FP.l"
+#line 36 "project.l"
 {return PRINT;}
 	YY_BREAK
 case 12:
 YY_RULE_SETUP
-#line 37 "FP.l"
+#line 37 "project.l"
 {return WHILE;}
 	YY_BREAK
 case 13:
 YY_RULE_SETUP
-#line 39 "FP.l"
+#line 39 "project.l"
 {
         fprintf(yyout,"Comment Found!!\n");
         }
 	YY_BREAK
 case 14:
 YY_RULE_SETUP
-#line 42 "FP.l"
+#line 42 "project.l"
 {return MAIN;}
 	YY_BREAK
 case 15:
 YY_RULE_SETUP
-#line 43 "FP.l"
+#line 43 "project.l"
 {}
 	YY_BREAK
 case 16:
 YY_RULE_SETUP
-#line 45 "FP.l"
+#line 45 "project.l"
 {fprintf(yyError,"%s  ->  Unkown character!!\n",yytext);}
 	YY_BREAK
 case 17:
 YY_RULE_SETUP
-#line 47 "FP.l"
+#line 47 "project.l"
 ECHO;
 	YY_BREAK
 #line 737 "lex.yy.c"
@@ -1619,7 +1619,7 @@ int main()
 	return 0;
 	}
 #endif
-#line 47 "FP.l"
+#line 47 "project.l"
 
 
 int yywrap()
